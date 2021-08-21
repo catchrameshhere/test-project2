@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="26" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-08T21:46:26 IST" name="Regression Suite" finished-at="2021-08-08T21:46:34 IST" duration-ms="8706">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T21:46:26 IST" name="Regression Test-Chrome" finished-at="2021-08-08T21:46:31 IST" duration-ms="5856">
+      <class name="test.Base">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:test.Base@78123e82]" started-at="2021-08-08T21:46:26 IST" name="beforeTest" finished-at="2021-08-08T21:46:29 IST" duration-ms="3263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.Base@78123e82]" started-at="2021-08-08T21:46:31 IST" name="afterTest" finished-at="2021-08-08T21:46:31 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.Base -->
+      <class name="test.LoginValidation">
+        <test-method signature="blankUsernameBlankPasswordTest()[pri:0, instance:test.LoginValidation@7133da86]" started-at="2021-08-08T21:46:29 IST" name="blankUsernameBlankPasswordTest" finished-at="2021-08-08T21:46:29 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameBlankPasswordTest -->
+        <test-method signature="blankUsernameValidPasswordTest(java.lang.String)[pri:0, instance:test.LoginValidation@7133da86]" started-at="2021-08-08T21:46:29 IST" name="blankUsernameValidPasswordTest" finished-at="2021-08-08T21:46:30 IST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameValidPasswordTest -->
+        <test-method signature="invalidUsernameInvalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@7133da86]" started-at="2021-08-08T21:46:30 IST" name="invalidUsernameInvalidPasswordTest" finished-at="2021-08-08T21:46:30 IST" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameInvalidPasswordTest -->
+        <test-method signature="invalidUsernameValidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@7133da86]" started-at="2021-08-08T21:46:30 IST" name="invalidUsernameValidPasswordTest" finished-at="2021-08-08T21:46:30 IST" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPasswordTest -->
+        <test-method signature="validUsernameBlankPasswordTest(java.lang.String)[pri:0, instance:test.LoginValidation@7133da86]" started-at="2021-08-08T21:46:30 IST" name="validUsernameBlankPasswordTest" finished-at="2021-08-08T21:46:31 IST" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dan@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameBlankPasswordTest -->
+        <test-method signature="validUsernameInvalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@7133da86]" started-at="2021-08-08T21:46:31 IST" name="validUsernameInvalidPasswordTest" finished-at="2021-08-08T21:46:31 IST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPasswordTest -->
+        <test-method signature="validUsernameValidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@7133da86]" started-at="2021-08-08T21:46:31 IST" name="validUsernameValidPasswordTest" finished-at="2021-08-08T21:46:31 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameValidPasswordTest -->
+      </class> <!-- test.LoginValidation -->
+      <class name="test.BasicValidation">
+        <test-method signature="titleValidation()[pri:0, instance:test.BasicValidation@5562c41e]" started-at="2021-08-08T21:46:29 IST" name="titleValidation" finished-at="2021-08-08T21:46:29 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method signature="urlValidation()[pri:0, instance:test.BasicValidation@5562c41e]" started-at="2021-08-08T21:46:29 IST" name="urlValidation" finished-at="2021-08-08T21:46:29 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlValidation -->
+      </class> <!-- test.BasicValidation -->
+    </test> <!-- Regression Test-Chrome -->
+    <test started-at="2021-08-08T21:46:26 IST" name="Regression Test-Firefox" finished-at="2021-08-08T21:46:34 IST" duration-ms="8706">
+      <class name="test.Base">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:test.Base@434a63ab]" started-at="2021-08-08T21:46:26 IST" name="beforeTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="6931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.Base@434a63ab]" started-at="2021-08-08T21:46:33 IST" name="afterTest" finished-at="2021-08-08T21:46:34 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.Base -->
+      <class name="test.LoginValidation">
+        <test-method signature="blankUsernameBlankPasswordTest()[pri:0, instance:test.LoginValidation@2805d709]" started-at="2021-08-08T21:46:33 IST" name="blankUsernameBlankPasswordTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameBlankPasswordTest -->
+        <test-method signature="blankUsernameValidPasswordTest(java.lang.String)[pri:0, instance:test.LoginValidation@2805d709]" started-at="2021-08-08T21:46:33 IST" name="blankUsernameValidPasswordTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameValidPasswordTest -->
+        <test-method signature="invalidUsernameInvalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@2805d709]" started-at="2021-08-08T21:46:33 IST" name="invalidUsernameInvalidPasswordTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameInvalidPasswordTest -->
+        <test-method signature="invalidUsernameValidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@2805d709]" started-at="2021-08-08T21:46:33 IST" name="invalidUsernameValidPasswordTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPasswordTest -->
+        <test-method signature="validUsernameBlankPasswordTest(java.lang.String)[pri:0, instance:test.LoginValidation@2805d709]" started-at="2021-08-08T21:46:33 IST" name="validUsernameBlankPasswordTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dan@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameBlankPasswordTest -->
+        <test-method signature="validUsernameInvalidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@2805d709]" started-at="2021-08-08T21:46:33 IST" name="validUsernameInvalidPasswordTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPasswordTest -->
+        <test-method signature="validUsernameValidPasswordTest(java.lang.String,java.lang.String)[pri:0, instance:test.LoginValidation@2805d709]" started-at="2021-08-08T21:46:33 IST" name="validUsernameValidPasswordTest" finished-at="2021-08-08T21:46:33 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameValidPasswordTest -->
+      </class> <!-- test.LoginValidation -->
+      <class name="test.BasicValidation">
+        <test-method signature="titleValidation()[pri:0, instance:test.BasicValidation@6e0f5f7f]" started-at="2021-08-08T21:46:33 IST" name="titleValidation" finished-at="2021-08-08T21:46:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method signature="urlValidation()[pri:0, instance:test.BasicValidation@6e0f5f7f]" started-at="2021-08-08T21:46:33 IST" name="urlValidation" finished-at="2021-08-08T21:46:33 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlValidation -->
+      </class> <!-- test.BasicValidation -->
+    </test> <!-- Regression Test-Firefox -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
